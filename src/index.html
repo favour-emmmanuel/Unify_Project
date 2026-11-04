@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unify - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav aria-label="Main Navigation">
+            <h1>Unify</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Welcome to Unify</h2>
+            <p>Your one-stop solution for all your needs.</p>
+            <img src="hero-image.jpg" alt="Illustration of a dashboard interface showing user analytics and team collaboration">
+        </section>
+
+        <section class="interactive-form">
+            <h2>Join our Mailing List</h2>
+            <div id="feedback-message" aria-live="polite"></div>
+
+            <form id="signup-form">
+                <label for="currency">Preferred Currency:</label>
+                <select id="currency" name="currency" required>
+                    <option value="">--Select Currency--</option>
+                    <option value="USD">US Dollar ($)</option>
+                    <option value="EUR">Euro (€)</option>
+                    <option value="GBP">British Pound (£)</option>
+                    <option value="CAD">Canadian Dollar (C$)</option>
+                    <option value="AUD">Australian Dollar (A$)</option>
+                    <optgroup label="Other Currencies">
+                        <option value="JPY">Japanese Yen (¥)</option>
+                        <option value="CNY">Chinese Yuan (¥)</option>
+                        <option value="INR">Indian Rupee (₹)</option>
+                        <option value="BRL">Brazilian Real (R$)</option>
+                        <option value="ZAR">South African Rand (R)</option>
+                    </optgroup>
+                </select>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required autocomplete="email">
+
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Unify Project. All rights reserved.</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
