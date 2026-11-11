@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
-    color: #333;
+    color: #6c927c;
 }
 
 header {
@@ -20,7 +20,7 @@ nav {
 
 nav h1 {
     margin: 0;
-    color: #0066cc;
+    color: #ffd6fa;
 }
 
 nav ul {
@@ -38,7 +38,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #0066cc;
+    color: #ffd6fa;
 }
 
 main {
@@ -79,7 +79,7 @@ form input, form select {
 
 form button {
     margin-top: 1.5rem;
-    background-color: #0066cc;
+    background-color: #ffd6fa;
     color: white;
     padding: 0.75rem 1.5rem;
     border: none;
